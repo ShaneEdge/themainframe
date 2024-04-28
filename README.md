@@ -7,5 +7,10 @@ The project emphasized code readability, maintainability, and adaptability. It p
 
 
 
+The DrivePass project was a system that allowed the company DrivePass to have a web-based application that can sign up and accept payments from new customers.  
+The thing I did best was explain it in layman's terms to the nontechnical members of DrivePass
+If I could change one thing I did it would be the UML class diagram. I was less confident in that diagram than the rest of them. 
+I designed a forgiving system that allowed for wrong inputs without requiring a restart of the program. 
+I approach software from the user's point of view. This allows for the most enjoyable programs to use and makes it easier to find things to improve on. 
 
 
