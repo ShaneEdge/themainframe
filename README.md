@@ -1,3 +1,17 @@
+Artemis Financial is a company that needed help securing its web-based software. Their goal was to ensure that public keys could be safely distributed and verified through checksum generation, and that sensitive client data remained protected over HTTPS. The client wanted us to address security weaknesses in the application and ensure that any software developed followed secure coding standards and protocols.
+
+During the vulnerability assessment, I successfully identified known security issues in the code using the OWASP dependency-check tool. I recognized outdated or vulnerable libraries and generated reports that made it easy to see where changes were necessary. Addressing these vulnerabilities matters because insecure code can lead to serious data breaches. Secure software not only protects company and client data, but it also builds trust and helps ensure compliance with industry regulations, contributing directly to the business's reputation and operational reliability.
+
+One of the more challenging parts of the vulnerability assessment was learning how to suppress false positives effectively without ignoring real risks. The step-by-step suppression process was helpful because it taught me how to fine-tune tools like the OWASP plugin to provide more accurate reports. It also helped me understand that not all flagged issues are critical—but still need to be reviewed.
+
+To increase layers of security, I generated a secure hash using the SHA-256 algorithm for checksum verification, and I implemented SSL using a self-signed certificate to enable HTTPS for secure communication. In the future, I would continue using static code analysis tools like dependency-check, as well as dynamic testing when possible. I would also look into automated vulnerability scanners and integrate them into CI/CD pipelines.
+
+To make sure the application was both functional and secure, I tested it thoroughly after refactoring. This included using REST endpoints to confirm the output of the checksum, checking HTTPS configuration in the browser, and re-running vulnerability scans after changes. These steps helped confirm that no new issues were introduced.
+
+Some of the most useful tools and practices included the OWASP dependency-check plugin for Maven, using the Java Keytool to generate certificates, and following secure coding practices like not hard-coding passwords or using outdated libraries. These are all things I will use again.
+
+If a future employer asked for an example of my work, I would show them the final dependency-check report with all vulnerabilities addressed or suppressed, my refactored checksum controller code, and a screenshot of the secure web browser showing HTTPS and the hash output. This would demonstrate not only my technical skills but also my attention to secure development practices from start to finish.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # themainframe
 In these projects, we tackled structuring and managing course data for a Computer Science advising system. I approached this by focusing on data organization, user accessibility, and efficient implementation. Understanding data structures was crucial, impacting efficiency and ease of implementation.
 
@@ -27,4 +41,4 @@ After developing and testing then we can deploy. Prepare production environments
 Address any issues that arise after deployment. Some agile practices to help with this would be building software in small, manageable increments, allowing for frequent reassessment and adaptation. Also working in sprints to set deadlines for each task. Sprint planning and reviews are also needed to get everyone focused on the correct task and to maintain constant communication. 
 Being a good team member in software development means more than being competent in your role. It also means being a good teammate as you would be on any team. Being there to support your teammates and listen to their struggles, making sure you inform teammates of your own struggles and also being professional. This can mean being on time every day, behaving courteously, and staying focused. 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
