@@ -12,6 +12,15 @@ Some of the most useful tools and practices included the OWASP dependency-check 
 
 If a future employer asked for an example of my work, I would show them the final dependency-check report with all vulnerabilities addressed or suppressed, my refactored checksum controller code, and a screenshot of the secure web browser showing HTTPS and the hash output. This would demonstrate not only my technical skills but also my attention to secure development practices from start to finish.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How can I ensure that my code, program, or software is functional and secure?
+To ensure functionality, I write and run unit tests that validate the behavior of each method against expected results. I used JUnit extensively in Project One to confirm that contact creation, deletion, and updating worked correctly. To secure software, I incorporate encryption, verify dependencies using tools like OWASP Dependency-Check, and follow best practices like avoiding hardcoded values and using HTTPS with proper certificates, as demonstrated in Project Two.
+
+How do I interpret user needs and incorporate them into a program?
+I start by reviewing the project requirements and identifying how users will interact with the system. Then, I design features and test cases based on these needs. For example, in Project One, I ensured that contacts couldn’t have null values or invalid IDs, matching common user data input expectations. In Project Two, I used checksum and secure communication to ensure data integrity and privacy for users accessing a REST API.
+
+How do I approach designing software?
+I begin with modularity in mind—breaking functionality into focused classes and methods that are easy to test and maintain. I use object-oriented principles and think ahead to testing and security needs while writing the code. I also make sure the software is designed in a way that supports future enhancements and adheres to secure coding standards.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # themainframe
 In these projects, we tackled structuring and managing course data for a Computer Science advising system. I approached this by focusing on data organization, user accessibility, and efficient implementation. Understanding data structures was crucial, impacting efficiency and ease of implementation.
 
